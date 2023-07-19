@@ -2,7 +2,7 @@
 
 '''
 Declare global variables option, password, and encoded_password
- for use in the menu, storing passwords, and encoding passwords,
+ for use in the menu, storing passwords, and decoding passwords,
 respectively.
 '''
 
@@ -28,8 +28,8 @@ def menu():
 
 def decoding(word):
     '''
-    Define encoding function to take password as arg and increment each
-    value by 3. If the increment results in a value greater than 10, subtract 10
+    Define decoding function to take password as arg and increment each
+    value by -33. If the increment results in a value less than 0, add 10
     '''
 
     encoded_password = ""
